@@ -42,6 +42,7 @@ public class MainActivity extends MvpAppCompatActivity implements MainView{
         fragment2 = new FragmentAndroid2();
     }
 
+    @Override
     public void onBackPressed() {
         fragmentManagerCheck = getSupportFragmentManager();
         Fragment currentFragment = fragmentManager.findFragmentById(R.id.container);

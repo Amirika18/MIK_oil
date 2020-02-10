@@ -127,8 +127,4 @@ public class FragmentAndroid2 extends Fragment{
         super.onDetach();
     }
 
-    public void onBackPressed() {
-        MainActivity.setFragment1(MainActivity.fragment1, MainActivity.fragmentManager);
-    }
-
 }
